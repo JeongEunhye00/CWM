@@ -1,5 +1,5 @@
-# [2026 EMNLP Findings] CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation and Reasoning Ability
-> #### Keuntae Kim*, Eunhye Jeong*, Yong Suk Choi†
+# [2026 EMNLP Findings] CWM: Controllable White-Box Meta-Prompting for Adaptive Retrieval-Augmented Generation and Reasoning Ability [![EMNLP 2026](https://img.shields.io/badge/EMNLP%202026-Findings-purple)](https://aclanthology.org/2026.findings-emnlp.56/)
+> #### Keuntae Kim*, Eunhye Jeong*, Yong Suk Choi† 
 > \*: Equal contribution, †: Corresponding author
 
 <details>
