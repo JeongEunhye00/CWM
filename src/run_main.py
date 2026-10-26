@@ -103,7 +103,7 @@ def main():
     actions = ["SELECT", "ADAPT", "IMPLEMENT"]
 
     data_dir = os.path.join(args.data_dir, args.dataset_name)
-    data_path = os.path.join(data_dir, f"{args.dataset_name}_100.json")
+    data_path = os.path.join(data_dir, f"{args.dataset_name}.json")
     with open(data_path, 'r', encoding='utf-8') as f:
         dataset = json.load(f)
 
