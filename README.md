@@ -13,6 +13,26 @@
 ![image](./images/overview.png)
 
 
+
+## 💻 Running CWM
+Run CWM using the following command:
+```bash
+python src/run_main.py \
+    --model_name "generation_model_name" \
+    --dataset_name "dataset_name" \
+    --delta_gain_coef 0.07 \
+    --alpha_neg_cap 1.0
+```
+### Experimental Settings
+We used the following configurations in our experiments:
+| Parameter | Values |
+|-----------|--------|
+| `model_name` | `gpt-oss-20b`, `qwen3-14b`, `llama-8b` |
+| `dataset_name` | `BBH`, `T4D`, `MATH500`, `HotpotQA`, `StrategyQA`, `MuSiQue` |
+| `alpha_neg_cap` | `0.0`, `1.0`, `1.5` |
+| `delta_gain_coef` | `0.03`, `0.05`, `0.07`, `0.09` |
+
+
 ## 📚 Citation
 ```
 @inproceedings{kim-etal-2026-cwm,
